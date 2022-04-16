@@ -1,0 +1,3333 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "3.5.0.0",
+        "fileVersion": "3.5.0-beta4-20153-05 (20b9af91)",
+        "semanticVersion": "3.5.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 67,
+                  "endLine": 34,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 67,
+                  "endLine": 34,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 67,
+                  "endLine": 34,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/_ViewStart.cshtml.g.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 67,
+                  "endLine": 19,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 67,
+                  "endLine": 33,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 67,
+                  "endLine": 34,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_LoginPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 84,
+                  "startColumn": 207,
+                  "endLine": 84,
+                  "endColumn": 209
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_LoginPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 210,
+                  "endLine": 112,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_LoginPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 158,
+                  "startColumn": 208,
+                  "endLine": 158,
+                  "endColumn": 210
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_LoginPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 208,
+                  "endLine": 177,
+                  "endColumn": 210
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 87,
+                  "startColumn": 208,
+                  "endLine": 87,
+                  "endColumn": 210
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 209,
+                  "endLine": 102,
+                  "endColumn": 211
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 131,
+                  "startColumn": 212,
+                  "endLine": 131,
+                  "endColumn": 214
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 158,
+                  "startColumn": 212,
+                  "endLine": 158,
+                  "endColumn": 214
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 173,
+                  "startColumn": 212,
+                  "endLine": 173,
+                  "endColumn": 214
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 194,
+                  "startColumn": 212,
+                  "endLine": 194,
+                  "endColumn": 214
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 215,
+                  "startColumn": 212,
+                  "endLine": 215,
+                  "endColumn": 214
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 244,
+                  "startColumn": 212,
+                  "endLine": 244,
+                  "endColumn": 214
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 264,
+                  "startColumn": 217,
+                  "endLine": 264,
+                  "endColumn": 219
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 278,
+                  "startColumn": 217,
+                  "endLine": 278,
+                  "endColumn": 219
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 292,
+                  "startColumn": 217,
+                  "endLine": 292,
+                  "endColumn": 219
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Delete.cshtml.g.cs",
+                "region": {
+                  "startLine": 219,
+                  "startColumn": 210,
+                  "endLine": 219,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Delete.cshtml.g.cs",
+                "region": {
+                  "startLine": 242,
+                  "startColumn": 212,
+                  "endLine": 242,
+                  "endColumn": 214
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Details.cshtml.g.cs",
+                "region": {
+                  "startLine": 213,
+                  "startColumn": 208,
+                  "endLine": 213,
+                  "endColumn": 210
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Details.cshtml.g.cs",
+                "region": {
+                  "startLine": 244,
+                  "startColumn": 208,
+                  "endLine": 244,
+                  "endColumn": 210
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 212,
+                  "endLine": 59,
+                  "endColumn": 214
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 212,
+                  "endLine": 73,
+                  "endColumn": 214
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 207,
+                  "endLine": 71,
+                  "endColumn": 209
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 239,
+                  "startColumn": 208,
+                  "endLine": 239,
+                  "endColumn": 210
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 270,
+                  "startColumn": 208,
+                  "endLine": 270,
+                  "endColumn": 210
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Index.cshtml.g.cs",
+                "region": {
+                  "startLine": 301,
+                  "startColumn": 208,
+                  "endLine": 301,
+                  "endColumn": 210
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 81,
+                  "startColumn": 213,
+                  "endLine": 81,
+                  "endColumn": 215
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 103,
+                  "startColumn": 209,
+                  "endLine": 103,
+                  "endColumn": 211
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 216,
+                  "endLine": 126,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 148,
+                  "startColumn": 210,
+                  "endLine": 148,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 170,
+                  "startColumn": 215,
+                  "endLine": 170,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 192,
+                  "startColumn": 216,
+                  "endLine": 192,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 214,
+                  "startColumn": 210,
+                  "endLine": 214,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 236,
+                  "startColumn": 215,
+                  "endLine": 236,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 258,
+                  "startColumn": 216,
+                  "endLine": 258,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 280,
+                  "startColumn": 210,
+                  "endLine": 280,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 302,
+                  "startColumn": 215,
+                  "endLine": 302,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 324,
+                  "startColumn": 216,
+                  "endLine": 324,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 346,
+                  "startColumn": 210,
+                  "endLine": 346,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 368,
+                  "startColumn": 215,
+                  "endLine": 368,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 390,
+                  "startColumn": 216,
+                  "endLine": 390,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 412,
+                  "startColumn": 210,
+                  "endLine": 412,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 434,
+                  "startColumn": 215,
+                  "endLine": 434,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 456,
+                  "startColumn": 216,
+                  "endLine": 456,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 478,
+                  "startColumn": 210,
+                  "endLine": 478,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 500,
+                  "startColumn": 215,
+                  "endLine": 500,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 522,
+                  "startColumn": 216,
+                  "endLine": 522,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 544,
+                  "startColumn": 210,
+                  "endLine": 544,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 566,
+                  "startColumn": 215,
+                  "endLine": 566,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 588,
+                  "startColumn": 216,
+                  "endLine": 588,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 610,
+                  "startColumn": 210,
+                  "endLine": 610,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 632,
+                  "startColumn": 215,
+                  "endLine": 632,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 654,
+                  "startColumn": 216,
+                  "endLine": 654,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 676,
+                  "startColumn": 210,
+                  "endLine": 676,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 698,
+                  "startColumn": 215,
+                  "endLine": 698,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 736,
+                  "startColumn": 208,
+                  "endLine": 736,
+                  "endColumn": 210
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 214,
+                  "endLine": 128,
+                  "endColumn": 216
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 150,
+                  "startColumn": 216,
+                  "endLine": 150,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 172,
+                  "startColumn": 210,
+                  "endLine": 172,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 194,
+                  "startColumn": 215,
+                  "endLine": 194,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 216,
+                  "startColumn": 216,
+                  "endLine": 216,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 240,
+                  "startColumn": 221,
+                  "endLine": 240,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 256,
+                  "startColumn": 221,
+                  "endLine": 256,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 272,
+                  "startColumn": 221,
+                  "endLine": 272,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 309,
+                  "startColumn": 215,
+                  "endLine": 309,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 331,
+                  "startColumn": 216,
+                  "endLine": 331,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 353,
+                  "startColumn": 210,
+                  "endLine": 353,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 375,
+                  "startColumn": 215,
+                  "endLine": 375,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 397,
+                  "startColumn": 216,
+                  "endLine": 397,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 421,
+                  "startColumn": 221,
+                  "endLine": 421,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 437,
+                  "startColumn": 221,
+                  "endLine": 437,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 453,
+                  "startColumn": 221,
+                  "endLine": 453,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 469,
+                  "startColumn": 221,
+                  "endLine": 469,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 485,
+                  "startColumn": 221,
+                  "endLine": 485,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 501,
+                  "startColumn": 221,
+                  "endLine": 501,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 517,
+                  "startColumn": 221,
+                  "endLine": 517,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 533,
+                  "startColumn": 221,
+                  "endLine": 533,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 549,
+                  "startColumn": 221,
+                  "endLine": 549,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 565,
+                  "startColumn": 221,
+                  "endLine": 565,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 581,
+                  "startColumn": 221,
+                  "endLine": 581,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 597,
+                  "startColumn": 221,
+                  "endLine": 597,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 613,
+                  "startColumn": 221,
+                  "endLine": 613,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 629,
+                  "startColumn": 221,
+                  "endLine": 629,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 645,
+                  "startColumn": 221,
+                  "endLine": 645,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 661,
+                  "startColumn": 221,
+                  "endLine": 661,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 677,
+                  "startColumn": 221,
+                  "endLine": 677,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 693,
+                  "startColumn": 221,
+                  "endLine": 693,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 709,
+                  "startColumn": 221,
+                  "endLine": 709,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 725,
+                  "startColumn": 221,
+                  "endLine": 725,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 741,
+                  "startColumn": 221,
+                  "endLine": 741,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 757,
+                  "startColumn": 221,
+                  "endLine": 757,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 773,
+                  "startColumn": 221,
+                  "endLine": 773,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 789,
+                  "startColumn": 221,
+                  "endLine": 789,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 805,
+                  "startColumn": 221,
+                  "endLine": 805,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 821,
+                  "startColumn": 221,
+                  "endLine": 821,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 837,
+                  "startColumn": 221,
+                  "endLine": 837,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 874,
+                  "startColumn": 215,
+                  "endLine": 874,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 896,
+                  "startColumn": 216,
+                  "endLine": 896,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 918,
+                  "startColumn": 210,
+                  "endLine": 918,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 940,
+                  "startColumn": 215,
+                  "endLine": 940,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 962,
+                  "startColumn": 216,
+                  "endLine": 962,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 984,
+                  "startColumn": 210,
+                  "endLine": 984,
+                  "endColumn": 212
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1006,
+                  "startColumn": 215,
+                  "endLine": 1006,
+                  "endColumn": 217
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1028,
+                  "startColumn": 216,
+                  "endLine": 1028,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1052,
+                  "startColumn": 221,
+                  "endLine": 1052,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1068,
+                  "startColumn": 221,
+                  "endLine": 1068,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1084,
+                  "startColumn": 221,
+                  "endLine": 1084,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1100,
+                  "startColumn": 221,
+                  "endLine": 1100,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1116,
+                  "startColumn": 221,
+                  "endLine": 1116,
+                  "endColumn": 223
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1132,
+                  "startColumn": 222,
+                  "endLine": 1132,
+                  "endColumn": 224
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1148,
+                  "startColumn": 222,
+                  "endLine": 1148,
+                  "endColumn": 224
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1164,
+                  "startColumn": 222,
+                  "endLine": 1164,
+                  "endColumn": 224
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1180,
+                  "startColumn": 222,
+                  "endLine": 1180,
+                  "endColumn": 224
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1196,
+                  "startColumn": 222,
+                  "endLine": 1196,
+                  "endColumn": 224
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1212,
+                  "startColumn": 222,
+                  "endLine": 1212,
+                  "endColumn": 224
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1249,
+                  "startColumn": 216,
+                  "endLine": 1249,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1271,
+                  "startColumn": 217,
+                  "endLine": 1271,
+                  "endColumn": 219
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1293,
+                  "startColumn": 211,
+                  "endLine": 1293,
+                  "endColumn": 213
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1315,
+                  "startColumn": 216,
+                  "endLine": 1315,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1337,
+                  "startColumn": 217,
+                  "endLine": 1337,
+                  "endColumn": 219
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1361,
+                  "startColumn": 222,
+                  "endLine": 1361,
+                  "endColumn": 224
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1377,
+                  "startColumn": 222,
+                  "endLine": 1377,
+                  "endColumn": 224
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1393,
+                  "startColumn": 222,
+                  "endLine": 1393,
+                  "endColumn": 224
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1409,
+                  "startColumn": 222,
+                  "endLine": 1409,
+                  "endColumn": 224
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1425,
+                  "startColumn": 222,
+                  "endLine": 1425,
+                  "endColumn": 224
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1462,
+                  "startColumn": 216,
+                  "endLine": 1462,
+                  "endColumn": 218
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 1500,
+                  "startColumn": 209,
+                  "endLine": 1500,
+                  "endColumn": 211
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "The field 'Views_Documents_Edit.__tagHelperStringValueBuffer' is never used",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Edit.cshtml.g.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 24,
+                  "endLine": 45,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "The field 'Views_Shared__ValidationScriptsPartial.__tagHelperStringValueBuffer' is never used",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs",
+                "region": {
+                  "startLine": 41,
+                  "startColumn": 24,
+                  "endLine": 41,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "The field 'Views_Documents_Delete.__tagHelperStringValueBuffer' is never used",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Delete.cshtml.g.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 24,
+                  "endLine": 42,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "The field 'Views_Shared__Layout.__tagHelperStringValueBuffer' is never used",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 24,
+                  "endLine": 53,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0169",
+          "level": "warning",
+          "message": "The field 'Views_Documents_Create.__tagHelperStringValueBuffer' is never used",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/d.daniel.de.sousa/source/repos/RedatorSaude/RedatorSaude/obj/Debug/netcoreapp3.1/Razor/Views/Documents/Create.cshtml.g.cs",
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 24,
+                  "endLine": 90,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        }
+      ],
+      "rules": {
+        "CS0169": {
+          "id": "CS0169",
+          "shortDescription": "Field is never used",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS1998": {
+          "id": "CS1998",
+          "shortDescription": "Async method lacks 'await' operators and will run synchronously",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
