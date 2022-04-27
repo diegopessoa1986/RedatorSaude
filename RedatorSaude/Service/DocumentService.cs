@@ -17,6 +17,7 @@ namespace RedatorSaude.Service
                 {
                     string _mainFile = SimpleDocumentHelper.GetFilePathByType(doc.NomePeca);
                     string _destFile = SimpleDocumentHelper.GetFilePathByType("RESULTADO");
+                    Advogado adv = SimpleDocumentHelper.GetAdvogadoByClient(doc.Reu);
 
                     RedatorOpenXml.searchAndReplace(_mainFile, _destFile, "$VARA$", doc.Vara.ToUpper());
                     RedatorOpenXml.fillDocOpenXml(_destFile, "$FORO$", doc.Foro.ToUpper());
@@ -28,6 +29,8 @@ namespace RedatorSaude.Service
                     RedatorOpenXml.fillDocOpenXml(_destFile, "$AUTOR$", doc.Autor.ToUpper());
                     RedatorOpenXml.fillDocOpenXml(_destFile, "$UF$", SimpleDocumentHelper.GetUF(doc.Estado.ToUpper()));
                     RedatorOpenXml.fillDocOpenXml(_destFile, "$DATACRIACAO$", DateTime.Now.ToString("dd-MMMM-yyyy").Replace("-", " de ").ToUpper());
+                    RedatorOpenXml.fillDocOpenXml(_destFile, "$ADVOGADO$", adv.Nome.ToUpper());
+                    RedatorOpenXml.fillDocOpenXml(_destFile, "$OAB$", adv.OAB.ToUpper());
 
                     stream = new FileStream(_destFile, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite);
                 }

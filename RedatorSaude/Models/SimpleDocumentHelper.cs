@@ -23,6 +23,12 @@ namespace RedatorSaude.Models
                     return Map.document_juntada_cartas_subs;
                 case "PROVA PERICIA MEDICA":
                     return Map.document_especificacao_provas_pericia_medica;
+                case "PETICAO 1018":
+                    return Map.document_peticao_1018;
+                case "JUNTADA HONORARIOS":
+                    return Map.document_juntada_honorarios;
+                case "EMBARGOS DECLARACAO":
+                    return Map.document_embargos_declaracao;
             }
             return "";
         }
@@ -53,6 +59,14 @@ namespace RedatorSaude.Models
                     return "HOSPITAL ALVORADA TAGUATINGA S/A, devidamente inscrita no CNPJ/MF sob o nº 08.100.676/0001-69, com sede situada na Rua Arquiteto Olavo Redig de Campos, nº 105, 8º andar, Torre B, Empreendimento EZ Towers, Vila Francisco, Cidade e Estado de São Paulo, CEP nº 04711-904";
                 case "ESHO EMPRESAS DE SERVIÇOS HOSPITALARES S/A - HOSPITAL SAMARITANO":
                     return "ESHO EMPRESAS DE SERVIÇOS HOSPITALARES S/A - HOSPITAL SAMARITANO, pessoa jurídica de direito privado inscrita no CNPJ/MF 29.435.005/0061-60, com sede a Rua Bambina nº 98, Bairro Botafogo - Rio de Janeiro – RJ - CEP 22251-050";
+                case "SUL AMERICA COMPANHIA DE SEGURO SAUDE":
+                    return "SUL AMERICA COMPANHIA DE SEGURO SAUDE, devidamente inscrita no CNPJ/MF sob o nº 01.685.053/0001-56, com sede situada na Rua Beatriz Larragoiti Lucas, nº 121, Cidade Nova, Estado do Rio de Janeiro, CEP nº 20.211-903";
+                case "PRODENT ASSISTÊNCIA ODONTOLÓGICA LTDA":
+                    return "PRODENT ASSISTÊNCIA ODONTOLÓGICA LTDA, devidamente inscrita no Ministério da Fazenda sob o CNPJ/MF de n.º 61.590.816/0001-07, com sede na Rua da Consolação, nº 1681, 2º andar, São Paulo – SP";
+                case "SUL AMERICA ODONTOLOGICO S.A.":
+                    return "SUL AMERICA ODONTOLOGICO S.A., devidamente inscrita no CNPJ/MF sob o nº 11.973.134/0001-05, com sede situada na Rua Dos Pinheiros, n.º 1673, 7º ANDAR, ALA SUL e 11º ANDAR; São Paulo - SP, CEP: 05422-012";
+                case "CAIXA DE ASSISTÊNCIA DOS FUNCIONÁRIOS DO BANCO DO BRASIL - CASSI":
+                    return "CAIXA DE ASSISTÊNCIA DOS FUNCIONÁRIOS DO BANCO DO BRASIL - CASSI, associação civil de direito privado e de assistência social sem fins lucrativos, inscrita no CNPJ/MF sob o nº. 33.719.485/0001-27, com sede no SGAS, 613, conjunto E, bloco A, Asa Sul, CEP: 70.200-903, em Brasília/DF";
             }
             return "";
         }
@@ -64,27 +78,35 @@ namespace RedatorSaude.Models
                 case "AMIL ASSISTÊNCIA MÉDICA INTERNACIONAL S.A.":
                     return new Advogado() { Nome = @"RODOLPHO MARINHO DE SOUZA FIGUEIREDO", OAB = @"OAB/PE nº 31.036 | OAB/SP nº 414.983" } ;
                 case "AMICO SAÚDE LTDA.":
-                    return new Advogado() { Nome = "", OAB = "" };
+                    return new Advogado() { Nome = @"RODOLPHO MARINHO DE SOUZA FIGUEIREDO", OAB = @"OAB/PE nº 31.036 | OAB/SP nº 414.983" };
                 case "SANTA HELENA ASSISTÊNCIA MÉDICA S.A":
-                    return new Advogado() { Nome = "", OAB = "" };
+                    return new Advogado() { Nome = @"RODOLPHO MARINHO DE SOUZA FIGUEIREDO", OAB = @"OAB/PE nº 31.036 | OAB/SP nº 414.983" };
                 case "HOSPITAL ANA COSTA S.A.":
-                    return new Advogado() { Nome = "", OAB = "" };
+                    return new Advogado() { Nome = @"RODOLPHO MARINHO DE SOUZA FIGUEIREDO", OAB = @"OAB/PE nº 31.036 | OAB/SP nº 414.983" };
                 case "PLANO DE SAÚDE ANA COSTA LTDA.":
-                    return new Advogado() { Nome = "", OAB = "" };
+                    return new Advogado() { Nome = @"RODOLPHO MARINHO DE SOUZA FIGUEIREDO", OAB = @"OAB/PE nº 31.036 | OAB/SP nº 414.983" };
                 case "SEISA SERVIÇOS INTEGRADOS DE SAÚDE LTDA.":
-                    return new Advogado() { Nome = "", OAB = "" };
+                    return new Advogado() { Nome = @"RODOLPHO MARINHO DE SOUZA FIGUEIREDO", OAB = @"OAB/PE nº 31.036 | OAB/SP nº 414.983" };
                 case "SOBAM CENTRO MÉDICO HOSPITALAR LTDA.":
-                    return new Advogado() { Nome = "", OAB = "" };
+                    return new Advogado() { Nome = @"RODOLPHO MARINHO DE SOUZA FIGUEIREDO", OAB = @"OAB/PE nº 31.036 | OAB/SP nº 414.983" };
                 case "HOSPITAL SANTA HELENA S.A.":
-                    return new Advogado() { Nome = "", OAB = "" };
+                    return new Advogado() { Nome = @"RODOLPHO MARINHO DE SOUZA FIGUEIREDO", OAB = @"OAB/PE nº 31.036 | OAB/SP nº 414.983" };
                 case "AMIL SAÚDE LTDA (MEDIAL SAÚDE)":
                     return new Advogado() { Nome = @"RODOLPHO MARINHO DE SOUZA FIGUEIREDO", OAB = @"OAB/PE nº 31.036 | OAB/SP nº 414.983" };
                 case "HOSPITAL ALVORADA TAGUATINGA S/A":
-                    return new Advogado() { Nome = "", OAB = "" };
+                    return new Advogado() { Nome = @"RODOLPHO MARINHO DE SOUZA FIGUEIREDO", OAB = @"OAB/PE nº 31.036 | OAB/SP nº 414.983" };
                 case "ESHO EMPRESAS DE SERVIÇOS HOSPITALARES S/A - HOSPITAL SAMARITANO":
-                    return new Advogado() { Nome = "", OAB = "" };
+                    return new Advogado() { Nome = @"RODOLPHO MARINHO DE SOUZA FIGUEIREDO", OAB = @"OAB/PE nº 31.036 | OAB/SP nº 414.983" };
+                case "SUL AMERICA COMPANHIA DE SEGURO SAUDE":
+                    return new Advogado() { Nome = "ANTONIO EDUARDO GONÇALVES DE RUEDA", OAB = "OAB/PE 16.983" };
+                case "PRODENT ASSISTÊNCIA ODONTOLÓGICA LTDA":
+                    return new Advogado() { Nome = "ANTONIO EDUARDO GONÇALVES DE RUEDA", OAB = "OAB/PE 16.983" };
+                case "SUL AMERICA ODONTOLOGICO S.A.":
+                    return new Advogado() { Nome = "ANTONIO EDUARDO GONÇALVES DE RUEDA", OAB = "OAB/PE 16.983" };
+                case "CAIXA DE ASSISTÊNCIA DOS FUNCIONÁRIOS DO BANCO DO BRASIL - CASSI":
+                    return new Advogado() { Nome = "MARIA EMÍLIA GONÇALVES DE RUEDA", OAB = "OAB/PE nº 23.748" };
             }
-            return new Advogado() { Nome = "", OAB = "" }; 
+            return new Advogado() { Nome = "ANTONIO EDUARDO GONÇALVES DE RUEDA", OAB = "OAB/PE 16.983" }; 
         }
 
         public static string GetTypeString(string tipo) 
@@ -103,6 +125,12 @@ namespace RedatorSaude.Models
                     return "JUNTADA_CARTAS_SUBS";
                 case "PROVA PERICIA MEDICA":
                     return "PROVA_PERICIA_MEDICA";
+                case "PETICAO 1018":
+                    return "PETICAO_1018";
+                case "JUNTADA HONORARIOS":
+                    return "JUNTADA_HONORARIOS";
+                case "EMBARGOS DECLARACAO":
+                    return "EMBARGOS DECLARACAO";
             }
             return "";
         }
