@@ -1,12 +1,12 @@
 ﻿@model RedatorSaude.Models.Document
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Criação de Documentos";
 }
 
-<h1>Create</h1>
+<h1>Criação</h1>
 
-<h4>Document</h4>
+<h4>Documento</h4>
 <hr />
 <div class="row">
     <div class="col-md-10">
@@ -91,13 +91,15 @@
                     <option value="SUL AMERICA COMPANHIA DE SEGURO SAUDE">SUL AMERICA COMPANHIA DE SEGURO SAUDE</option>
                     <option value="SUL AMERICA ODONTOLOGICO S.A.">SUL AMERICA ODONTOLOGICO S.A.</option>
                     <option value="CAIXA DE ASSISTÊNCIA DOS FUNCIONÁRIOS DO BANCO DO BRASIL - CASSI">CAIXA DE ASSISTÊNCIA DOS FUNCIONÁRIOS DO BANCO DO BRASIL - CASSI</option>
+                    <option value="UNIMED SEGUROS SAÚDE S/A">UNIMED SEGUROS SAÚDE S/A</option>
+                    <option value="UNIMED SEGURADORA S/A">UNIMED SEGURADORA S/A</option>
+                    <option value="UNIMED CLUBE DE SEGUROS S/A.">UNIMED CLUBE DE SEGUROS S/A.</option>
+                    <option value="UNIMED ODONTO S/A.">UNIMED ODONTO S/A.</option>
+                    <option value="UNIMED SEGUROS PATRIMONIAIS S/A">UNIMED SEGUROS PATRIMONIAIS S/A</option>
+                    <option value="UNIMED NATAL SOCIEDADE COOPERATIVA DE TRABALHO MÉDICO">UNIMED NATAL SOCIEDADE COOPERATIVA DE TRABALHO MÉDICO</option>
+                    <option value="CENTRAL NACIONAL UNIMED – COOPERATIVA CENTRAL">CENTRAL NACIONAL UNIMED – COOPERATIVA CENTRAL</option>
                 </select>
                 <span asp-validation-for="Reu" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DataCriacao" class="control-label"></label>
-                <input asp-for="DataCriacao" class="form-control" />
-                <span asp-validation-for="DataCriacao" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="NomePeca" class="control-label"></label>
@@ -106,10 +108,10 @@
                     <option value="ESPECIFICAO SEM PROVAS">Especificação sem provas</option>
                     <option value="JUNTADA CUSTAS FINAIS">Juntada Custas Finais</option>
                     <option value="JUNTADA CARTAS SUBS">Juntada Cartas Subs</option>
-                    <option value="PROVA PERICIA MEDICA">"Prova pericia medica"</option>
-                    <option value="PETICAO 1018">"Petição 1018"</option>
-                    <option value="JUNTADA HONORARIOS">Juntada Honorarios Periciais</option>
-                    <option value="EMBARGOS DECLARACAO">Embargos Declaracao</option>
+                    <option value="PROVA PERICIA MEDICA">Prova pericia medica</option>
+                    <option value="PETICAO 1018">Petição 1018</option>
+                    <option value="JUNTADA HONORARIOS">Juntada Honorários Periciais</option>
+                    <option value="EMBARGOS DECLARACAO">ED - Honorários de sucuembência </option>
                 </select>
                 <span asp-validation-for="NomePeca" class="text-danger"></span>
             </div>

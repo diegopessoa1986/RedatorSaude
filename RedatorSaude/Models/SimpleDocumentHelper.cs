@@ -67,6 +67,26 @@ namespace RedatorSaude.Models
                     return "SUL AMERICA ODONTOLOGICO S.A., devidamente inscrita no CNPJ/MF sob o nº 11.973.134/0001-05, com sede situada na Rua Dos Pinheiros, n.º 1673, 7º ANDAR, ALA SUL e 11º ANDAR; São Paulo - SP, CEP: 05422-012";
                 case "CAIXA DE ASSISTÊNCIA DOS FUNCIONÁRIOS DO BANCO DO BRASIL - CASSI":
                     return "CAIXA DE ASSISTÊNCIA DOS FUNCIONÁRIOS DO BANCO DO BRASIL - CASSI, associação civil de direito privado e de assistência social sem fins lucrativos, inscrita no CNPJ/MF sob o nº. 33.719.485/0001-27, com sede no SGAS, 613, conjunto E, bloco A, Asa Sul, CEP: 70.200-903, em Brasília/DF";
+                case "UNIMED SEGUROS SAÚDE S/A":
+                    return "UNIMED SEGUROS SAÚDE S/A, devidamente inscrita no CNPJ/MF sob o nº 04.487.255/0001-81," +
+            " com sede situada na Alameda Ministro Rocha Azevedo, nº 346, 4º andar, Cerqueira César, São Paulo, Estado de São Paulo, CEP nº 01410-000";
+                case "UNIMED SEGURADORA S/A":
+                    return "UNIMED SEGURADORA S/A, devidamente inscrita no CNPJ/MF sob o nº 92.863.505/0001-06," +
+            " com sede situada na Alameda Ministro Rocha Azevedo, nº 346, Cerqueira César, Estado de São Paulo, CEP nº 01410-901";
+                case "UNIMED CLUBE DE SEGUROS S/A.":
+                    return "UNIMED CLUBE DE SEGUROS S/A., devidamente inscrita no CNPJ/MF sob o nº 64.919.129/0001-80," +
+            " com sede situada na Alameda Santos, nº 1.827 - 15º andar, Cerqueira César, São Paulo, Estado de São Paulo, CEP nº 01419-002";
+                case "UNIMED ODONTO S/A.":
+                    return "UNIMED ODONTO S/A., devidamente inscrita no CNPJ/MF sob o nº 10.414.182/0001-09," +
+            " com sede situada na Alameda Ministro Rocha Azevedo, nº 346, 4º andar, Cerqueira César, São Paulo, Estado de São Paulo, CEP nº 01410-000";
+                case "UNIMED SEGUROS PATRIMONIAIS S/A":
+                    return "UNIMED SEGUROS PATRIMONIAIS S/A, devidamente inscrita no CNPJ/MF sob o nº 12.973.906/0001-71," +
+            " com sede situada na Alameda Ministro Rocha Azevedo, nº 346, 10º andar, Cerqueira César, São Paulo, Estado de São Paulo, CEP nº 01410-901";
+                case "UNIMED NATAL SOCIEDADE COOPERATIVA DE TRABALHO MÉDICO":
+                    return "UNIMED NATAL SOCIEDADE COOPERATIVA DE TRABALHO MÉDICO, devidamente inscrita no CNPJ sob n. 08.380.701/0001-05," +
+            " com sede na Rua Mibipu, n. 511, bairro Petrópolis, Natal/RN, CEP 5902025.";
+                case "CENTRAL NACIONAL UNIMED – COOPERATIVA CENTRAL":
+                    return "CENTRAL NACIONAL UNIMED – COOPERATIVA CENTRAL, inscrita no CNPJ/ MF sob o nº 02.812.468 / 0001 - 06, com sede social na Alameda Santos, nº 1826, Cerqueira César, São Paulo – SP, CEP: 01418 - 102";
             }
             return "";
         }
@@ -105,6 +125,20 @@ namespace RedatorSaude.Models
                     return new Advogado() { Nome = "ANTONIO EDUARDO GONÇALVES DE RUEDA", OAB = "OAB/PE 16.983" };
                 case "CAIXA DE ASSISTÊNCIA DOS FUNCIONÁRIOS DO BANCO DO BRASIL - CASSI":
                     return new Advogado() { Nome = "MARIA EMÍLIA GONÇALVES DE RUEDA", OAB = "OAB/PE nº 23.748" };
+                case "UNIMED SEGUROS SAÚDE S/A":
+                    return new Advogado() { Nome = "ANTONIO EDUARDO GONÇALVES DE RUEDA", OAB = "OAB/PE 16.983" }; 
+                case "UNIMED SEGURADORA S/A":
+                    return new Advogado() { Nome = "ANTONIO EDUARDO GONÇALVES DE RUEDA", OAB = "OAB/PE 16.983" }; 
+                case "UNIMED CLUBE DE SEGUROS S/A.":
+                    return new Advogado() { Nome = "ANTONIO EDUARDO GONÇALVES DE RUEDA", OAB = "OAB/PE 16.983" }; 
+                case "UNIMED ODONTO S/A.":
+                    return new Advogado() { Nome = "ANTONIO EDUARDO GONÇALVES DE RUEDA", OAB = "OAB/PE 16.983" }; 
+                case "UNIMED SEGUROS PATRIMONIAIS S/A":
+                    return new Advogado() { Nome = "ANTONIO EDUARDO GONÇALVES DE RUEDA", OAB = "OAB/PE 16.983" };
+                case "UNIMED NATAL SOCIEDADE COOPERATIVA DE TRABALHO MÉDICO":
+                    return new Advogado() { Nome = "ANTONIO EDUARDO GONÇALVES DE RUEDA", OAB = "OAB/PE 16.983" };
+                case "CENTRAL NACIONAL UNIMED – COOPERATIVA CENTRAL":
+                    return new Advogado() { Nome = "ANTONIO EDUARDO GONÇALVES DE RUEDA", OAB = "OAB/PE 16.983" };
             }
             return new Advogado() { Nome = "ANTONIO EDUARDO GONÇALVES DE RUEDA", OAB = "OAB/PE 16.983" }; 
         }
@@ -195,6 +229,58 @@ namespace RedatorSaude.Models
                     return "AP";
             }
             return "";
+        }
+
+        public static string RetornarDataString(DateTime date) 
+        {
+            string datestring = "";
+            string dia = date.Day.ToString();
+            string ano = date.Year.ToString();
+            string mes = ""+date.Month.ToString();
+
+            switch (date.Month) 
+            {
+                case 1:
+                    mes = "Janeiro";
+                    break;
+                case 2:
+                    mes = "Fevereiro";
+                    break;
+                case 3:
+                    mes = "Março";
+                    break;
+                case 4:
+                    mes = "Abril";
+                    break;
+                case 5:
+                    mes = "Maio";
+                    break;
+                case 6:
+                    mes = "Junho";
+                    break;
+                case 7:
+                    mes = "Julho";
+                    break;
+                case 8:
+                    mes = "Agosto";
+                    break;
+                case 9:
+                    mes = "Setembro";
+                    break;
+                case 10:
+                    mes = "Outubro";
+                    break;
+                case 11:
+                    mes = "Novembro";
+                    break;
+                case 12:
+                    mes = "Dezembro";
+                    break;
+            }
+
+            datestring = $"{dia} de {mes} de {ano}.";
+
+            return datestring;
         }
     }
 }

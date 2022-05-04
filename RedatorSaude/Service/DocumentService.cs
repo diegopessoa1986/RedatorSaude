@@ -28,7 +28,7 @@ namespace RedatorSaude.Service
                     RedatorOpenXml.fillDocOpenXml(_destFile, "$REU$", doc.Reu.ToUpper());
                     RedatorOpenXml.fillDocOpenXml(_destFile, "$AUTOR$", doc.Autor.ToUpper());
                     RedatorOpenXml.fillDocOpenXml(_destFile, "$UF$", SimpleDocumentHelper.GetUF(doc.Estado.ToUpper()));
-                    RedatorOpenXml.fillDocOpenXml(_destFile, "$DATACRIACAO$", DateTime.Now.ToString("dd-MMMM-yyyy").Replace("-", " de ").ToUpper());
+                    RedatorOpenXml.fillDocOpenXml(_destFile, "$DATACRIACAO$", SimpleDocumentHelper.RetornarDataString(DateTime.Now).ToUpper());
                     RedatorOpenXml.fillDocOpenXml(_destFile, "$ADVOGADO$", adv.Nome.ToUpper());
                     RedatorOpenXml.fillDocOpenXml(_destFile, "$OAB$", adv.OAB.ToUpper());
 
