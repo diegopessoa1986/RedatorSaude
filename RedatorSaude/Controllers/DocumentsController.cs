@@ -16,12 +16,11 @@ namespace RedatorSaude.Controllers
     public class DocumentsController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly UserManager<IdentityUser> _userManager;
+        
 
-        public DocumentsController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
+        public DocumentsController(ApplicationDbContext context)
         {
             _context = context;
-            _userManager = userManager;
         }
 
         // GET: Documents
