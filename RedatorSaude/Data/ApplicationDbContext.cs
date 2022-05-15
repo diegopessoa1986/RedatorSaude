@@ -14,6 +14,7 @@ namespace RedatorSaude.Data
         {
         }
         public DbSet<RedatorSaude.Models.Document> Document { get; set; }
+        public DbSet<RedatorSaude.Models.UsuarioSistema> UsuarioSistema { get; set; }
         
     }
 }
