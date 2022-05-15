@@ -29,6 +29,16 @@ namespace RedatorSaude.Models
                     return Map.document_juntada_honorarios;
                 case "EMBARGOS DECLARACAO":
                     return Map.document_embargos_declaracao;
+                case "ED REDE CREDENCIADA":
+                    return Map.document_ed_rede_credenciada;
+                case "ED REEMBOLSO NOS LIMITES DO CONTRATO":
+                    return Map.document_ed_reembolso_limite_contrato;
+                case "PETIÇÃO PARECER NATJUS":
+                    return Map.document_pet_parecer_natjus;
+                case "PETIÇÃO ESPECIFICAÇÃO - TERAPIAS":
+                    return Map.document_pet_especificao_terapias;
+                case "HABILITAÇÃO DEVOLUÇÃO DE PRAZOS":
+                    return Map.document_hab_devolucao_prazos;
             }
             return "";
         }
@@ -164,7 +174,17 @@ namespace RedatorSaude.Models
                 case "JUNTADA HONORARIOS":
                     return "JUNTADA_HONORARIOS";
                 case "EMBARGOS DECLARACAO":
-                    return "EMBARGOS DECLARACAO";
+                    return "EMBARGOS_DECLARACAO";
+                case "ED REDE CREDENCIADA":
+                    return "ED_REDE_CREDENCIADA";
+                case "ED REEMBOLSO NOS LIMITES DO CONTRATO":
+                    return "ED_REEMBOLSO_NOS_LIMITES_DO_CONTRATO";
+                case "PETIÇÃO PARECER NATJUS":
+                    return "PETIÇÃO_PARECER_NATJUS";
+                case "PETIÇÃO ESPECIFICAÇÃO - TERAPIAS":
+                    return "PETIÇÃO_ESPECIFICAÇÃO_TERAPIAS";
+                case "HABILITAÇÃO DEVOLUÇÃO DE PRAZOS":
+                    return "HABILITAÇÃO_DEVOLUÇÃO_DE_PRAZOS";
             }
             return "";
         }

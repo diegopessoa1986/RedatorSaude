@@ -25,6 +25,16 @@ namespace RedatorSaude.Models
         public static string document_juntada_honorarios = rootFilepath + "juntada_honorarios_periciais.docx";
         //8-EMBARGOS DECLARACAO
         public static string document_embargos_declaracao = rootFilepath + "embargos_declaracao.docx";
+        //9-ED REDE CREDENCIADA
+        public static string document_ed_rede_credenciada = rootFilepath + "ed_rede_credenciada.docx";
+        //10-ED REEMBOLSO NOS LIMETES DO CONTRATO
+        public static string document_ed_reembolso_limite_contrato = rootFilepath + "ed_reembolso_limite_contrato.docx";
+        //11-HABILITAÇÃO DEVOLUÇÃO DE PRAZOS
+        public static string document_hab_devolucao_prazos = rootFilepath + "hab_devolucao_prazos.docx";
+        //12-PETIÇÃO ESPECIFICAÇÃO - TERAPIAS
+        public static string document_pet_especificao_terapias = rootFilepath + "pet_especificao_terapias.docx";
+        //13-PETIÇÃO PARECER NATJUS
+        public static string document_pet_parecer_natjus = rootFilepath + "pet_parecer_natjus.docx";
 
     }
 }
