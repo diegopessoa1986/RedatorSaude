@@ -1,4 +1,8 @@
-﻿@model RedatorSaude.Models.Document
+﻿@model RedatorSaude.Models.DocumentVM
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
 
 @{
     ViewData["Title"] = "Criação de Documentos";
@@ -119,6 +123,11 @@
                     <option value="HABILITAÇÃO DEVOLUÇÃO DE PRAZOS">Habilitação - Devolução de prazos</option>
                 </select>
                 <span asp-validation-for="NomePeca" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Usuario" class="control-label" hidden></label>
+                <input asp-for="Usuario" value=@User.Identity.Name class="form-control" hidden />
+                <span asp-validation-for="Usuario" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />

@@ -58,8 +58,30 @@ namespace RedatorSaude.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id,Vara,Foro,Cidade,Estado,NumeroProcesso,Autor,Reu,NomePeca")] Document documentoSimples)
+        public async Task<IActionResult> Create([Bind("id,Vara,Foro,Cidade,Estado,NumeroProcesso,Autor,Reu,NomePeca,Usuario")] DocumentVM documentoSimplesVM)
         {
+
+            Document documentoSimples = new Document() 
+            {
+                Autor = documentoSimplesVM.Autor,
+                Cidade = documentoSimplesVM.Cidade,
+                DataCriacao = DateTime.Now.ToString("dd-MM-yyyy"),
+                Estado = documentoSimplesVM.Estado,
+                Foro = documentoSimplesVM.Foro,
+                NomePeca = documentoSimplesVM.NomePeca,
+                NumeroProcesso = documentoSimplesVM.NumeroProcesso,
+                Reu = documentoSimplesVM.Reu,
+                Vara = documentoSimplesVM.Vara,
+                id = documentoSimplesVM.id
+            };
+
+            UsuarioSistema usuarioSistema = new UsuarioSistema() 
+            { 
+                Login = documentoSimplesVM.Usuario,
+                PecaCriada = documentoSimplesVM.NomePeca,
+                DataCriada = DateTime.Now
+            };
+
             if (ModelState.IsValid)
             {
                 try
@@ -69,7 +91,8 @@ namespace RedatorSaude.Controllers
                     {
                         
                         _context.Add(documentoSimples);
-                                               
+                        _context.Add(usuarioSistema);
+                            
                         await _context.SaveChangesAsync();
 
                         var typeString = SimpleDocumentHelper.GetTypeString(documentoSimples.NomePeca);
